@@ -106,13 +106,13 @@ libmm-vdec-inc          += $(LOCAL_PATH)/inc
 libmm-vdec-inc          += $(OMX_VIDEO_PATH)/vidc/common/inc
 libmm-vdec-inc          += hardware/qcom/media-caf-msm8974/mm-core/inc
 #DRM include - Interface which loads the DRM library
-libmm-vdec-inc          += hardware/qcom/display-caf-msm8974/libgralloc
+libmm-vdec-inc          += hardware/qcom/display-caf/msm8974/libgralloc
 libmm-vdec-inc          += frameworks/native/include/media/openmax
 libmm-vdec-inc          += frameworks/native/include/media/hardware
 libmm-vdec-inc          += $(vdec-inc)
-libmm-vdec-inc          += hardware/qcom/display-caf-msm8974/libqdutils
+libmm-vdec-inc          += hardware/qcom/display-caf/msm8974/libqdutils
 libmm-vdec-inc      += hardware/qcom/media-caf-msm8974/libc2dcolorconvert
-libmm-vdec-inc      += hardware/qcom/display-caf-msm8974/libcopybit
+libmm-vdec-inc      += hardware/qcom/display-caf/msm8974/libcopybit
 libmm-vdec-inc      += frameworks/av/include/media/stagefright
 libmm-vdec-inc      += $(TARGET_OUT_HEADERS)/mm-video/SwVdec
 libmm-vdec-inc      += $(TARGET_OUT_HEADERS)/qcom/display/
